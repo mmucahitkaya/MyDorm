@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter"
+        android:title="Filter">
+        <menu>
+            <item
+                android:id="@+id/clearFilter"
+                android:title="Clear Filter" />
+            <item
+                android:id="@+id/byPrice"
+                android:title="By Price">
+                <menu>
+                    <item
+                        android:id="@+id/increasePrice"
+                        android:title="Low to High" />
+                    <item
+                        android:id="@+id/decreasePrice"
+                        android:title="High to Low" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/byFriend"
+                android:title="Advert Categorie">
+                <menu>
+                    <item
+                        android:id="@+id/filterfurniture"
+                        android:title="Furniture" />
+                    <item
+                        android:id="@+id/filterroom"
+                        android:title="Room" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/toCreateAd"
+        android:title="Create Ad"></item>
+    <item
+        android:id="@+id/profile"
+        android:title="My Profile" />
+    <item
+        android:id="@+id/myAdverts"
+        android:title="My Adverts" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</menu>
